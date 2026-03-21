@@ -5,14 +5,7 @@ permalink: /
 # 副标题：突出你的学校、学院和拔尖班身份
 subtitle: Undergraduate Student at **Guangxi University** · Honors Program (Base Class)
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: true # 开启圆形头像，会让你的证件照显得更现代、专业
-  more_info: >
-    <p>School of Physical Science and Technology</p>
-    <p>Guangxi University, Nanning, China</p>
-    <p>Expected Graduation: June 2029</p>
+profile: false # 直接把整个 profile 设为 false
 
 # 大一还没有论文和博客，我们把这两个模块关掉，保持页面干净
 selected_papers: false 
