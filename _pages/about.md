@@ -2,33 +2,49 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# 副标题：突出你的学校、学院和拔尖班身份
+subtitle: Undergraduate Student at **Guangxi University** · Honors Program (Base Class)
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # 开启圆形头像，会让你的证件照显得更现代、专业
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>School of Physical Science and Technology</p>
+    <p>Guangxi University, Nanning, China</p>
+    <p>Expected Graduation: June 2029</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# 大一还没有论文和博客，我们把这两个模块关掉，保持页面干净
+selected_papers: false 
+social: true 
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true 
+  scrollable: true 
+  limit: 5 
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true 
+  limit: 3 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year undergraduate student at the **School of Physical Science and Technology, [Guangxi University (GXU)](https://www.gxu.edu.cn/)**, currently enrolled in the Base Class of Physics, Astronomy and Advanced Detection Technology (an honors program for talented students). I plan to major in **Integrated Circuit Design and Integrated System** starting from my sophomore year.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My academic interests lie at the intersection of hardware and software. I am particularly passionate about **Artificial Intelligence (AI)** and its integration with advanced electronic systems. Currently, I am focusing on building a solid foundation in physics, mathematics, and programming, preparing myself for future research and engineering challenges in IC design and AI applications.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+***
+
+### 👨‍🎓 关于我 (About Me)
+
+我是**广西大学**物理科学与工程技术学院的一名大一本科生，目前就读于物理天文学与先进探测技术基地班。在大二的专业分流中，我计划选择**集成电路设计与集成系统**专业。
+
+我对**人工智能 (AI)** 以及底层硬件与算法的结合抱有浓厚的兴趣。目前，我正致力于打牢物理、数学和计算机编程基础。我希望能在未来探索 AI 算法在集成电路设计中的应用，或是面向 AI 计算的高效芯片架构。我非常期待能有机会参与到相关的科研项目或高校计划中，接受更多的挑战与锻炼。
+
+### 📬 联系方式 (Contact)
+
+- **Edu Email:** [kang.wen@st.gxu.edu.cn](mailto:kang.wen@st.gxu.edu.cn)
+- **Personal Email:** [kangwen2025@outlook.com](mailto:kangwen2025@outlook.com)
+- **Phone:** (+86) 158-0849-0225
+
+*(Note: If you have a WeChat or GitHub account you'd like to share, you can find the icons at the bottom of the page!)*.
